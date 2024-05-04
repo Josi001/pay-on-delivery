@@ -1,0 +1,258 @@
+html{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    border-bottom: 1px solid rgb(233, 231, 231);
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 50px;     
+}
+
+.first{
+    font-size: small;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second{
+    font-size: small;
+    color: rgb(78, 66, 66);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third{
+    font-size: small;
+    color:blueviolet;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourth{
+    font-size: small;
+    color: rgb(78, 66, 66);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.log-in{
+    color: blueviolet;
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-color: blueviolet;
+    border: 1.5px solid blueviolet;
+    width: 80px;
+    height: 40px;
+}
+
+.getstarted{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 0px;
+    width: 120px;
+    height: 40px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-right: 50px;    
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45px;
+}
+
+.left-body{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.topleft{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+}
+
+.login p{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup p
+{
+    color: rgb(184, 178, 178);
+    font-size: smaller;
+}
+
+.two{
+    color: black;
+    font-size: smaller;
+}
+
+.middleleft{
+    margin-left: 30px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.email p, .password p{
+    padding-top: -45px;
+}
+
+.input-one, .input-two{
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 178, 178);
+    font-size: x-small;
+    padding-left: 10px;
+}
+
+.login-button button{
+    width: 365px;
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    background-color: blueviolet;
+}
+
+.hr{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.left-hr, .right-hr{
+    width: 128px; 
+    margin-left: 0px;
+}
+
+.hr div p{
+    color: rgb(184, 178, 178);
+    font-size: x-small;
+    margin-top: -1px;
+}
+
+.two-buttons{
+    margin-top: 20px;
+}
+
+.first-button button, .second-button button{
+    width: 365px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1.5px solid blueviolet;
+}
+
+.second-button button{
+    margin-top: 20px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.one-semi, .six-semi, .nine-semi, .eleven-semi, .seventeen-semi{
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.two-semi, .three-semi, .five-semi{
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 100%;
+}
+
+.four-semi, .seven-semi, .fourteen-semi{
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.eight-semi, .ten-semi, .twelve-semi, .thirteen-semi, .fifteen-semi, .sixteen-semi, .eighteen-semi{
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 0;
+}
+
+.one-circle, .two-circle, .three-circle, .four-circle, .five-circle, .six-circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.one-semi, .six-semi, .eight-semi, .nine-semi, .fourteen-semi, .fifteen-semi, .sixteen-semi, .two-circle{
+    background-color: lightgoldenrodyellow;
+}
+
+.two-semi, .three-circle, .five-circle, .eighteen-semi{
+    background-color: rgb(147, 198, 198);
+}
+
+.three-semi, .four-semi, .ten-semi, .eleven-semi, .thirteen-semi, .seventeen-semi, .six-circle{
+    background-color: rgb(95, 107, 120);
+}
+
+.five-semi{
+    background-color: rgb(206, 158, 141);
+}
+
+.one-circle, .seven-semi, .four-circle, .twelve-semi{
+    background-color: rgb(237, 207, 167);
+}
